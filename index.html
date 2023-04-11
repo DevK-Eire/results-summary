@@ -18,7 +18,8 @@
         },
         fontFamily: {
           sans: ['Hanken Grotesk', 'sans-serif']
-        }
+        },
+       
       }
     }
   </script>
@@ -27,40 +28,40 @@
   
   <title>Frontend Mentor | Results summary component</title>
 
+<!--result-->
+
  
 <div class="bg-white h-screen flex flex-row justify-center">
-  <div class="flex md:flex-row flex-col justify-center items-center ">
-    <div class="flex flex-row">
- <div class=" justify-center relative bg-gradient-to-b from-[#7857ff] to-[#2e2be9] text-white w-80 h-96 opacity-80 rounded-b-3xl md:rounded-xl ">
-  <h1 class="flex justify-center mt-10">Your Result</h1>
-  <div class="rounded-full w-36 h-36 bg-gradient-to-t opacity-80 hsla256-72-46-1 flex items-center justify-center mx-auto mt-6">
-    <span class="justify-center items-center text-5xl font-bold">76 
+  <div class="flex md:flex-row flex-col justify-center items-center">
+  <!--left side-->
+ <div class=" justify-center relative w-[350px] h-[300px] md:h-[460px] bg-gradient-to-t p-6  from-[#2e2be9] to-[#7857ff] text-white   rounded-b-3xl md:rounded-3xl  ">
+  <h1 class="flex justify-center text-2xl  opacity-50">Your Result</h1>
+  <div class="rounded-full w-24 h-24 md:w-36 md:h-36 bg-gradient-to-b   flex items-center justify-center mx-auto mt-6">
+    <span class="justify-center items-center text-4xl md:text-5xl font-bold">76 
     
       
-  <div class="flex justify-center items-center text-sm font-light"><br>
+  <div class="flex justify-center items-center text-sm font-light opacity-50"><br>
     of 100</div>
   </div>
 </span>
   
-<div class="flex  justify-center items-center flex-col mt-3 font-bold text-2xl ">Great
-  
+<div class="flex  justify-center items-center flex-col mt-3 md:mt-10 font-bold text-2xl ">Great
 
-  <div class=" text-sm mt-3 font-light text-center">You scored higher 65% of <br> the people who have taken <br> these tests.</div>
-  
-</div>
-
-
+  <div class=" text-base mt-3 font-light text-center opacity-50">You scored higher 65% of  the people who have taken  these tests.</div>
   
 </div>
 
 
-  
 </div>
 <!-- Summary -->
-  <div class="text-black bg-white flex flex-col w-80 md:w-80 md:h-96 md:shadow-xl md:rounded-r-2xl mt-4 gap-1 md:p-6">
-    <h2 class="text-black font-semibold ml-6 md:ml-1 md:mb-1 text-xl">Summary</h2>
+
+ <!--rightside-->
+  <div class="text-black bg-white flex flex-col p-3 md:shadow-xl w-[350px] h-[460px] p-6 md:rounded-r-2xl ">
+    <h2 class="text-black font-semibold ml-6  md:ml-1 md:mb-1 text-2xl">Summary</h2>
     
-    <div class="p-3 px-5 gap-8 space-y-4 md:space-y-4">
+    <div class=" gap-8 space-y-4 md:space-y-4">
+
+      <!-- left static code as an example, updated with a function fetchData -->
   
     <!-- <div class=" px-5 rounded-xl p-3 bg-[#ff5757]/5 flex gap-2 items-center">
       <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" viewBox="0 0 20 20"><path stroke="#F55" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.25" d="M10.833 8.333V2.5l-6.666 9.167h5V17.5l6.666-9.167h-5Z"/></svg>
@@ -110,14 +111,31 @@
  
 
 
-  <button class=" w-auto border border-blue-900 w-6 text-white bg-[#303b5a] rounded-3xl p-2 px-5 mt-5 hover:bg-from-[#c7d9ff] hover:bg-gradient-to-b hover:bg-to-[#c8c7ff]">Continue</button>
+  
 </div>
-  </div>
+<button class="w-[302px] p-4 my-auto text-white bg-[#303b5a] rounded-3xl hover:bg-gradient-to-t from-[#2e2be9] to-[#7857ff] ">
+  Continue
+</button>
+
+ 
+
 </div>
-  <!-- <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">DevK Eire</a>.
-  </div> -->
+
+ 
+</div>
+<div class="fixed inset-x-0 bottom-0 text-center bg-gray-200 p-2 text-sm md:text-base">
+  Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+  
+  Coded by <a href="https://github.com/DevK-Eire" target="_blank" class="text-green-500">DevK Eire</a>.
+
+  Hosted in  <a href="https://www.maintel.co.uk" target="_blank" class="text-blue-700">Maintel AWS CPaaS</a>.
+
+  
+</div>
+
+
+</div>
+  
 </div>
 </body>
 </html>
