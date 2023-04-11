@@ -16,9 +16,11 @@ This is a solution to the [Results summary component challenge on Frontend Mento
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
-
 ## Overview
+
+To create a Result Summary page with mobile first thinking. Add JSON data to the Summary table.
+
+Host a continuous deploying application in Maintel's AWS Amplify
 
 ### The challenge
 
@@ -33,7 +35,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://main.d3jcel33cvjcd7.amplifyapp.com/)
+- Live Site URL: [live site URL here](https://main.d3jcel33cvjcd7.amplifyapp.com/)
 
 ## My process
 
@@ -94,6 +96,4 @@ Frontend Mentor Slack Channels, YouTube, TailwindCSS docs, ChatGPT
 
 ## Acknowledgments
 
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
-
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
+The Twitter community has been so supportive, warms my heart most days.
